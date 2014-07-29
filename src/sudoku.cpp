@@ -1,4 +1,4 @@
-#include "sudoku.hpp"
+#include "Headers/sudoku.hpp"
 #include "ui_sudoku.h"
 #include <QDebug>
 

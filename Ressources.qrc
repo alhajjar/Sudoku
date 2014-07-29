@@ -1,8 +1,8 @@
 <RCC>
     <qresource prefix="/">
-        <file>bananahuge.gif</file>
-        <file>knee-to-head-knockout.gif</file>
-        <file>ninja-boy-thumbs-down-smiley-emoticon.gif</file>
-        <file>cowboy-shooting-gun-smiley-emoticon.gif</file>
+        <file>Images/bananahuge.gif</file>
+        <file>Images/cowboy-shooting-gun-smiley-emoticon.gif</file>
+        <file>Images/knee-to-head-knockout.gif</file>
+        <file>Images/ninja-boy-thumbs-down-smiley-emoticon.gif</file>
     </qresource>
 </RCC>

@@ -1,4 +1,4 @@
-#include "sudoku.hpp"
+#include "Headers/sudoku.hpp"
 #include <QApplication>
 
 int main(int argc, char *argv[])

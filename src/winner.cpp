@@ -1,6 +1,5 @@
-#include "winner.hpp"
+#include "Headers/winner.hpp"
 #include "ui_winner.h"
-#include<QMovie>
 
 Winner::Winner(QWidget *parent) :
     QDialog(parent),
@@ -8,7 +7,7 @@ Winner::Winner(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    QMovie *movie = new QMovie(":/bananahuge.gif");
+    QMovie *movie = new QMovie(":/Images/bananahuge.gif");
     movie->setScaledSize(ui->label_2->size());
     ui->label_2->setMovie(movie);
     movie->start();

@@ -12,18 +12,18 @@ TARGET = Sudoku
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        sudoku.cpp \
-    winner.cpp \
-    loser.cpp
+SOURCES += src/main.cpp\
+        src/sudoku.cpp \
+    src/winner.cpp \
+    src/loser.cpp
 
-HEADERS  += sudoku.hpp \
-    winner.hpp \
-    loser.hpp
+HEADERS  += Headers/sudoku.hpp \
+    Headers/winner.hpp \
+    Headers/loser.hpp
 
-FORMS    += sudoku.ui \
-    winner.ui \
-    loser.ui
+FORMS    += Graphics/sudoku.ui \
+    Graphics/winner.ui \
+    Graphics/loser.ui
 
 RESOURCES += \
     Ressources.qrc

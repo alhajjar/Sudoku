@@ -2,6 +2,7 @@
 #define LOSER_HPP
 
 #include <QDialog>
+#include<QMovie>
 
 namespace Ui {
 class Loser;

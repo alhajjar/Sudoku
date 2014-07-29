@@ -1,15 +1,15 @@
-#include "loser.hpp"
+#include "Headers/loser.hpp"
 #include "ui_loser.h"
-#include <QMovie>
+
 
 Loser::Loser(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::Loser)
 {
     ui->setupUi(this);
-    //QImage *qm = new QImage(":/middle-finger-rude-gesture-smiley-emoticon.gif");
+    //QImage *qm = new QImage(":/m-emoticon.gif");
     // ui->label_2->setPixmap(QPixmap::fromImage(*qm));
-    QMovie *movie = new QMovie(":/cowboy-shooting-gun-smiley-emoticon.gif");
+    QMovie *movie = new QMovie(":/Images/cowboy-shooting-gun-smiley-emoticon.gif");
     movie->setScaledSize(ui->label_2->size());
     ui->label_2->setMovie(movie);
     movie->start();

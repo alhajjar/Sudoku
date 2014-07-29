@@ -2,6 +2,7 @@
 #define WINNER_HPP
 
 #include <QDialog>
+#include<QMovie>
 
 namespace Ui {
 class Winner;
