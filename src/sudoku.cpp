@@ -107,7 +107,7 @@ Sudoku::Sudoku(QWidget *parent) :
     connect(ui->r8_9,SIGNAL(textEdited(QString)),this, SLOT(print()));
     connect(ui->r9_9,SIGNAL(textEdited(QString)),this, SLOT(print()));
 
-    //  ui->Show->hide();
+      ui->Show->hide();
 
     ui->r1->setText(QString::number(my_vector.at(0)));
     ui->r1->setDisabled(true);
@@ -521,7 +521,7 @@ void Sudoku::print(){
 void Sudoku::on_Generate_clicked()
 {
     randomSet();
-    //ui->Show->hide();
+    ui->Show->hide();
     ui->r1->setText(QString::number(my_vector.at(0)));
     ui->r5->setText(QString::number(my_vector.at(4)));
     ui->r7->setText(QString::number(my_vector.at(6)));
