@@ -21,20 +21,12 @@ public:
     ~Sudoku();
     QSize getSize();
     void random();
+    void randomSet();
 
 private:
     Ui::Sudoku *ui;
     QSize size;
-    QVector<int> vector;
-    QVector<int> vector0;
-    QVector<int> vector1;
-    QVector<int> vector2;
-    QVector<int> vector3;
-    QVector<int> vector4;
-    QVector<int> vector5;
-    QVector<int> vector6;
-    QVector<int> vector7;
-    QVector<int> vector8;
+    QVector<int> my_vector;
     Winner winner;
     Loser loser;
 

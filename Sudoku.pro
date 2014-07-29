@@ -27,3 +27,4 @@ FORMS    += Graphics/sudoku.ui \
 
 RESOURCES += \
     Ressources.qrc
+CONFIG += c++11
